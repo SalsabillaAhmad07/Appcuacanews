@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Berita</title>
+    <link rel="icon" href="/img/matahari.png" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+      <div class="main-content">
+      {{>header}}
+      <img class="portrait" src="/img/caca.jpg" alt="author">
+    </div>
+    {{>footer}}
+  </body>
+  <body>
+    <div class="search-box">
+        <input type="text" id="search-input" placeholder="Cari berita...">
+        <button id="search-button">Cari</button>
+    </div>
+    <div class="news-grid" id="news-container">
+        <!-- Hasil berita akan ditampilkan di sini -->
+    </div>
+    <script src="API.js"></script>
+</body>
+      <!-- footer -->
+  <footer>
+      <div class="container">
+          <small>Copyright &copy; 2023 - Salsabilla Ahmad. All Right Reserved.</small>
+      </div>
+      
+  </footer>
+  
+</body>
+</html>

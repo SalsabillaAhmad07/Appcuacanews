@@ -1,0 +1,87 @@
+body {
+  color: #333333;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-content {
+  flex-grow: 1;
+}
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+header a {
+  color: #521e49;
+  margin-right: 16px;
+  text-decoration: none;
+}
+.portrait {
+  width: 250px;
+}
+
+input {
+  border: 2px solid #cccccc;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 0px;
+  background-color: #cccccc;
+  color: white;
+  padding: 9px;
+}
+
+/* Gaya untuk seluruh halaman */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #aed787;
+  margin: 100;
+  padding: 100;
+}
+
+/* Gaya untuk konten utama */
+.main-content {
+  background-color: rgb(235, 183, 213);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 50px;
+  padding: 50px;
+}
+
+/* Gaya untuk gambar profil */
+.portrait {
+  max-width: 200%;
+  border-radius: 100%;
+}
+
+/* Gaya untuk judul dan paragraf */
+h2 {
+  color: #333;
+}
+
+p {
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Gaya untuk daftar */
+ul {
+  list-style-type: disc;
+  margin-left: 100px;
+}
